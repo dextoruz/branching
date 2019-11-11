@@ -1,0 +1,28 @@
+for contributor
+first fork the directory and clone it
+
+make changes, save it and push it.
+
+add remote user.(original user and its dir)
+`git remote add <nickname> https://github.com/linxnerd/branching.git`
+
+check remote user
+`git remote`
+
+
+`git fetchr48/ <nickname>`
+`git merge <nickname>/<branch>
+
+
+create pull request through gui
+
+For owner
+
+git checkout -b temp gui
+
+git pull git://github.com/COLAB-NU/branching.git master
+
+git checkout gui
+git merge --no-ff temp
+git push origin gui
+
